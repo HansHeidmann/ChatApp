@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Chat App</title>
+    </head>
+    <body>
+        <input id="chatBox" placeholder="fuck">
+        <script>
+            let chatBox = document.getElementById('chatBox');
+            function getMessages() {
+                let url = 'https://myurl.org/chatapp';
+                let port = 3000;
+                let messagesArray = fetch(url, port)
+                for(let i=0; i<messagesArray.length; i++) {
+                    chatBox.innerHTML += messagesArray[i] + '<br>';
+                }
+
+            }
+            setInterval(5000, getMessages);
+
+        </script>
+    </body>
+</html>
