@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "js chat app",
+  "main": "index.js",
+  "scripts": {
+    "ChatAppServer": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansHeidmann/ChatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansHeidmann/ChatApp/issues"
+  },
+  "homepage": "https://github.com/HansHeidmann/ChatApp#readme",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

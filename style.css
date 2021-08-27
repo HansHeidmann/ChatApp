@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#message-container {
+    width: 80%;
+    max-width: 1200px;
+}
+#message-container div {
+    background-color: #66ffcc;
+    padding: 5px;
+}
+#message-container div:nth-child(2n) {
+    background-color: #4d0099;
+    color: white;
+}
