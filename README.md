@@ -12,3 +12,4 @@ Open 2 terminals then:
 
 TODO:
 - position messageForm and send button below a scrolling text field that contains the appended chat message divs
+- 
